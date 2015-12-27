@@ -26,7 +26,7 @@ h3, h2, h1{
 	display: inline-block;
 	height: 400px;
 	width: 715px;
-	margin-top: 125px;
+	margin-top: 115px;
 	z-index: 1;
 }
 
@@ -131,35 +131,35 @@ h3, h2, h1{
 	float: right;
 }
 
-#home{
+#content{
 	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 	position: relative;
 	width: 500px;
-	height: 400px;
+	height: 430px;
 	margin-top: 10px;
 	margin-right: auto;
-	top: 500px;
 	border-style: solid;
 	border-width: 2px;
 	border-color: black;
-	background-color: #ffebcc;
+	background-color: #FAF3E6;
 	padding: 10px;
 	text-align: center;
 	-webkit-box-shadow: 0px 3px 58px 9px rgba(0,0,0,0.9);
 	-moz-box-shadow: 0px 3px 58px 9px rgba(0,0,0,0.9);
 	box-shadow: 0px 3px 58px 9px rgba(0,0,0,0.9);
+	top: 500px;
 	display: none;
 	float: right;
+	overflow: none;
 }
 
-#about, #coursework, #skills, #projects{
+#education, #skills, #projects, #contact{
 	display: none;
-	width: 400px;
-	height: 400px;
-	float: right;
-	border-style: solid;
-	border-width: 5px;
-	border-color: black;
+}
+
+#home{
+	top: 500px;
 }
 
 ul{
@@ -168,6 +168,7 @@ ul{
 }
 
 li{
+	width: 100%;
 	margin: 0px;
 	padding: 5px;
 	list-style-type: none;
@@ -177,12 +178,24 @@ li{
 	border-top-width: 0px;
 	border-left-width: 0px;
 	border-right-width: 0px;
+	background: none;
 }
 
 #welcome{
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	margin-top: -7.5px;
+	margin-bottom: -7.5px;
 }
 
 .typed-cursor{
 	display: none;
+}
+
+#col1{
+	float: left;
+}
+
+#col2{
+	
 }
