@@ -1,0 +1,188 @@
+h3, h2, h1{
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+
+#background{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	font-family: 'Droid Sans', sans-serif;
+	background:url("../images/Durham_Mural.jpg");
+	background-size: cover;
+	z-index: 0;
+}
+
+#wrapper{
+	height: 400px;
+	width: 715px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#container{
+	position: relative;
+	display: inline-block;
+	height: 400px;
+	width: 715px;
+	margin-top: 125px;
+	z-index: 1;
+}
+
+#nav{
+	top: -85px;
+	background-color: #542733;
+	border: 0px;
+	height: 85px;
+	display: none;
+}
+
+#logo{
+	top: 15px;
+	left: 175px;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	content:url("../images/white_logo.png");
+}
+
+#github, #fort, #linkedin{
+	font-size: 30px;
+	margin-right: 20px;
+	margin-top: 25px;
+	color: #5088d6;
+}
+
+#github:hover, #fort:hover, #linkedin:hover{
+	color: #93648D;
+}
+
+.icons{
+	position: absolute;
+	right: 75px;
+}
+
+#name{
+	top: 20px;
+}
+
+#side{
+	position: relative;
+	left: -500px;
+	padding: 0px;
+	width: 175px;
+	background: none;
+	text-align: center;
+	float: left;
+}
+
+#picture{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	text-align: center;
+	background:url("../images/picture_purple.png");
+	background-size: cover;
+	-webkit-box-shadow: 0px 3px 58px 9px rgba(0,0,0,0.9);
+	-moz-box-shadow: 0px 3px 58px 9px rgba(0,0,0,0.9);
+	margin-right: 10px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+}
+
+#navigation{
+	margin-top: 10px;
+	position: relative;
+	font-family: 'Lobster', cursive;
+	width: 200px;
+	height: 193px;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
+	-webkit-box-shadow: 0px 3px 58px 9px rgba(0,0,0,0.9);
+	-moz-box-shadow: 0px 3px 58px 9px rgba(0,0,0,0.9);
+	margin-right: 10px;
+	border-style: solid;
+	border-color: black;
+	border-left-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 0px;
+}
+
+#title{
+	position: relative;
+	font-family: 'Lobster', cursive;
+	color: white;
+	width: 500px;
+	height: 75px;
+	top: -400px;
+	margin-right: auto;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	text-align: center;
+	padding: 10px;
+	background: rgba(0, 0, 0, 0.8);
+	display: none;
+	-webkit-box-shadow: 0px 3px 58px 9px rgba(0,0,0,0.9);
+	-moz-box-shadow: 0px 3px 58px 9px rgba(0,0,0,0.9);
+	float: right;
+}
+
+#home{
+	font-family: 'Open Sans', sans-serif;
+	position: relative;
+	width: 500px;
+	height: 400px;
+	margin-top: 10px;
+	margin-right: auto;
+	top: 500px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	background-color: #ffebcc;
+	padding: 10px;
+	text-align: center;
+	-webkit-box-shadow: 0px 3px 58px 9px rgba(0,0,0,0.9);
+	-moz-box-shadow: 0px 3px 58px 9px rgba(0,0,0,0.9);
+	box-shadow: 0px 3px 58px 9px rgba(0,0,0,0.9);
+	display: none;
+	float: right;
+}
+
+#about, #coursework, #skills, #projects{
+	display: none;
+	width: 400px;
+	height: 400px;
+	float: right;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+}
+
+ul{
+	list-style-type: none;
+	padding: 0px;
+}
+
+li{
+	margin: 0px;
+	padding: 5px;
+	list-style-type: none;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-right-width: 0px;
+}
+
+#welcome{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.typed-cursor{
+	display: none;
+}
