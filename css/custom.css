@@ -59,7 +59,8 @@ h3, h2, h1{
 }
 
 .icons{
-	position: absolute;
+	position: relative;
+	float: right;
 	right: 75px;
 }
 
@@ -151,7 +152,6 @@ h3, h2, h1{
 	top: 500px;
 	display: none;
 	float: right;
-	overflow: none;
 }
 
 #education, #skills, #projects, #contact{
@@ -196,6 +196,78 @@ li{
 	float: left;
 }
 
-#col2{
-	
+@media only screen and (max-width: 725px){
+	#background{
+		position: absolute;
+		display: block;
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		border: 0;
+		padding: 0;
+	}
+	#container, #wrapper, #side{
+		position: relative;
+		display: block;
+		width: 100%;
+	}
+	#side{
+		width: 100%;
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#title{
+		width: 100%;
+		position: relative;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		float: top;
+	}
+	#navigation{
+		width: 47.5%;
+		height: 45.8%;
+		position: relative;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;	
+		float: left;
+	}
+	#picture{
+		top: 9px;
+		width: 47.5%;
+		height: 47.5%;
+		position: relative;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		float: right;
+	}
+	#content{
+		position: relative;
+		display: block;
+		width: 100%;
+		height: auto;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#logo{
+		display: block;
+		position: absolute;
+		left: 40px;
+	}
+	.icons{
+		display: block;
+		position: absolute;
+		right: 20px;
+	}
+	#nav{
+		display: block;
+		margin: 0;
+		top: 0;
+	}
+	#container{
+		margin-top: 75px;
+	}
 }
