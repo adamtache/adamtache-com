@@ -7,10 +7,6 @@ $(document).ready(function(){
 	$("#title").delay(500).fadeIn({queue: false, duration: 500});
 	$("#title").delay(750).animate({"top": "0px"}, 500);
 
-	// if(screen.width<=725){
-	// 	$("#title").css("margin-top","20px");
-	// }
-
 	$("#content").delay(875).fadeIn({queue: false, duration: 500});
 	$("#content").delay(875).animate({"top": "0px"}, 500);
 
