@@ -4,6 +4,11 @@ h3, h2, h1{
 	padding: 0px;
 }
 
+html, body{
+	overflow: auto;
+	min-height: 100%;
+}
+
 #background{
 	position: absolute;
 	width: 100%;
@@ -181,6 +186,16 @@ li{
 	background: none;
 }
 
+#skills{
+	margin-top: 15px;
+	font-size: 15px;
+}
+
+#contact{
+	margin-top: 15px;
+	font-size: 25px;
+}
+
 #welcome{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
@@ -196,9 +211,18 @@ li{
 	float: left;
 }
 
+@media only screen and (min-width: 715px){
+	#nav, #content{
+		display: block;
+	}
+}
+
 @media only screen and (max-width: 715px){
+	body{
+		background-color: #acacac;
+	}
 	#background{
-		top: 85px;
+		top: 50px;
 	}
 	#wrapper{
 		width: 100%;
@@ -250,23 +274,27 @@ li{
 		display: block;
 		width: 100%;
 		height: auto;
+		margin-bottom: 20px;
 	}
 	#logo{
 		display: block;
 		position: absolute;
 		left: 40px;
+		top: 0px;
 	}
 	.icons{
 		display: block;
 		position: absolute;
 		right: 20px;
+		top: -15px;
 	}
 	#nav{
 		display: inline-block;
 		margin: 0;
 		top: 0;
+		height: 50px;
 	}
 	#container{
-		margin-top: 25px;
+		margin-top: 0px;
 	}
 }
