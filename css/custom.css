@@ -31,20 +31,19 @@ html, body{
 	display: inline-block;
 	height: 100%;
 	width: 100%;
-	margin-top: 115px;
-	z-index: 1;
+	margin-top: 100px;
 }
 
 #nav{
 	top: -85px;
 	background-color: #542733;
 	border: 0px;
-	height: 85px;
+	height: 70px;
 	display: none;
 }
 
 #logo{
-	top: 15px;
+	top: 10px;
 	left: 175px;
 	width: 50px;
 	height: 50px;
@@ -55,7 +54,7 @@ html, body{
 #github, #fort, #linkedin{
 	font-size: 30px;
 	margin-right: 20px;
-	margin-top: 25px;
+	margin-top: 20px;
 	color: #5088d6;
 }
 
@@ -102,8 +101,8 @@ html, body{
 	margin-top: 10px;
 	position: relative;
 	font-family: 'Lobster', cursive;
+	height: 200px;
 	width: 200px;
-	height: 193px;
 	text-align: center;
 	background: rgba(0, 0, 0, 0.8);
 	color: white;
@@ -159,23 +158,24 @@ html, body{
 	float: right;
 }
 
-#education, #skills, #projects, #contact{
+#AboutPage, #EducationPage, #SkillsPage, #ProjectsPage, #ContactPage{
 	display: none;
 }
 
-#home{
+#HomePage{
 	top: 500px;
 }
 
-ul{
+ul, #navList{
 	list-style-type: none;
 	padding: 0px;
+	margin: 0px;
+	border: 0px;
 }
 
 li{
 	width: 100%;
 	margin: 0px;
-	padding: 5px;
 	list-style-type: none;
 	border-style: solid;
 	border-width: 2px;
@@ -183,15 +183,14 @@ li{
 	border-top-width: 0px;
 	border-left-width: 0px;
 	border-right-width: 0px;
-	background: none;
 }
 
-#skills{
+#skillsPage{
 	margin-top: 15px;
 	font-size: 15px;
 }
 
-#contact{
+#contactPage{
 	margin-top: 15px;
 	font-size: 25px;
 }
@@ -231,18 +230,19 @@ li{
 		margin-right: auto;
 	}
 	#container{
-		top: 75px;
+		top: 65px;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
 		width: 95%;
+		margin-top: 0px;
 	}
 	#side{
 		width: 100%;
 		position: relative;
 		margin-left: auto;
 		margin-right: auto;
-		margin-top: 10px;
+		margin-top: 5px;
 		margin-bottom: 10px;
 	}
 	#title{
@@ -253,20 +253,21 @@ li{
 		display: none;
 	}
 	#navigation{
-		width: 45%;
+		width: 48%;
+		top: -5px;
 		position: relative;
 		display: block;
-		margin-left: 10px;
-		margin-right: 5px;
+		margin-left: 0px;
+		margin-right: 0px;
 		float: left;
 	}
 	#picture{
 		display: none;
-		top: 10px;
-		width: 45%;
+		top: 5px;
+		width: 48%;
 		position: relative;
 		display: block;
-		margin-right: 10px;	
+		margin-right: 0px;	
 		float: right;
 	}
 	#content{
@@ -274,6 +275,7 @@ li{
 		display: block;
 		width: 100%;
 		height: auto;
+		margin-top: -5px;
 		margin-bottom: 20px;
 	}
 	#logo{
@@ -286,15 +288,12 @@ li{
 		display: block;
 		position: absolute;
 		right: 20px;
-		top: -15px;
+		top: -10px;
 	}
 	#nav{
 		display: inline-block;
 		margin: 0;
 		top: 0;
 		height: 50px;
-	}
-	#container{
-		margin-top: 0px;
 	}
 }
