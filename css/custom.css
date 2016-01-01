@@ -2,35 +2,25 @@ h3, h2, h1{
 	margin: 0px;
 	border: 0px;
 	padding: 0px;
-}
-
-html, body{
-	overflow: auto;
-	min-height: 100%;
+	display: inline;
 }
 
 #background{
 	position: absolute;
 	width: 100%;
 	height: 100%;
-	font-family: 'Droid Sans', sans-serif;
 	background:url("../images/Durham_Mural.jpg");
 	background-size: cover;
-	z-index: -1;
 }
 
 #wrapper{
-	height: 400px;
 	width: 715px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 #container{
-	position: relative;
 	display: inline-block;
-	height: 100%;
-	width: 100%;
 	margin-top: 100px;
 }
 
@@ -74,19 +64,14 @@ html, body{
 
 #side{
 	position: relative;
-	left: -500px;
-	padding: 0px;
-	width: 175px;
-	background: none;
+	left: -1000px;
 	text-align: center;
 	float: left;
 }
 
 #picture{
 	position: relative;
-	width: 200px;
 	height: 200px;
-	text-align: center;
 	background:url("../images/picture_purple.png");
 	background-size: cover;
 	-webkit-box-shadow: 0px 3px 58px 9px rgba(0,0,0,0.9);
@@ -97,25 +82,6 @@ html, body{
 	border-color: black;
 }
 
-#navigation{
-	margin-top: 10px;
-	position: relative;
-	font-family: 'Lobster', cursive;
-	height: 200px;
-	width: 200px;
-	text-align: center;
-	background: rgba(0, 0, 0, 0.8);
-	color: white;
-	-webkit-box-shadow: 0px 3px 58px 9px rgba(0,0,0,0.9);
-	-moz-box-shadow: 0px 3px 58px 9px rgba(0,0,0,0.9);
-	margin-right: 10px;
-	border-style: solid;
-	border-color: black;
-	border-left-width: 2px;
-	border-right-width: 2px;
-	border-bottom-width: 0px;
-}
-
 #title{
 	position: relative;
 	font-family: 'Lobster', cursive;
@@ -123,7 +89,6 @@ html, body{
 	width: 500px;
 	height: 75px;
 	top: -400px;
-	margin-right: auto;
 	border-style: solid;
 	border-width: 2px;
 	border-color: black;
@@ -141,58 +106,67 @@ html, body{
 	font-weight: 300;
 	position: relative;
 	width: 500px;
-	height: 430px;
-	margin-top: 10px;
-	margin-right: auto;
+	min-Height: 325px;
+	padding: 7.5px;
 	border-style: solid;
 	border-width: 2px;
 	border-color: black;
 	background-color: #FAF3E6;
-	padding: 10px;
 	text-align: center;
 	-webkit-box-shadow: 0px 3px 58px 9px rgba(0,0,0,0.9);
 	-moz-box-shadow: 0px 3px 58px 9px rgba(0,0,0,0.9);
 	box-shadow: 0px 3px 58px 9px rgba(0,0,0,0.9);
-	top: 500px;
+	top: 1000px;
 	display: none;
 	float: right;
-}
-
-#AboutPage, #EducationPage, #SkillsPage, #ProjectsPage, #ContactPage{
-	display: none;
+	margin-top: 10px;
 }
 
 #HomePage{
-	top: 500px;
+	margin-top: 10px;
 }
 
-ul, #navList{
+#navList{
 	list-style-type: none;
 	padding: 0px;
 	margin: 0px;
 	border: 0px;
+	margin-top: 10px;
+	position: relative;
+	font-family: 'Lobster', cursive;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.8);
+	color: white;
+	-webkit-box-shadow: 0px 3px 58px 9px rgba(0,0,0,0.9);
+	-moz-box-shadow: 0px 3px 58px 9px rgba(0,0,0,0.9);
+	margin-right: 10px;
+	border-style: solid;
+	border-color: black;
+	border-top-width: 2px;
+	border-left-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 0px;
 }
 
 li{
 	width: 100%;
 	margin: 0px;
-	list-style-type: none;
 	border-style: solid;
-	border-width: 2px;
 	border-color: black;
 	border-top-width: 0px;
 	border-left-width: 0px;
 	border-right-width: 0px;
+	border-bottom-width: 2px;
 }
 
 #skillsPage{
-	margin-top: 15px;
 	font-size: 15px;
 }
 
 #contactPage{
-	margin-top: 15px;
-	font-size: 25px;
+	font-size: 20px;
 }
 
 #welcome{
@@ -222,20 +196,17 @@ li{
 	}
 	#background{
 		top: 50px;
+		background-size: auto;
 	}
 	#wrapper{
 		width: 100%;
-		height: 100%;
-		margin-left: auto;
-		margin-right: auto;
 	}
 	#container{
-		top: 65px;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
 		width: 95%;
-		margin-top: 0px;
+		margin-top: 55px;
 	}
 	#side{
 		width: 100%;
@@ -247,34 +218,21 @@ li{
 	}
 	#title{
 		width: 100%;
-		margin-left: auto;
-		margin-right: auto;
-		position: relative;
-		display: none;
 	}
-	#navigation{
+	#navList{
 		width: 48%;
 		top: -5px;
-		position: relative;
-		display: block;
-		margin-left: 0px;
-		margin-right: 0px;
-		float: left;
 	}
 	#picture{
-		display: none;
 		top: 5px;
 		width: 48%;
-		position: relative;
 		display: block;
 		margin-right: 0px;	
 		float: right;
 	}
 	#content{
-		position: relative;
 		display: block;
 		width: 100%;
-		height: auto;
 		margin-top: -5px;
 		margin-bottom: 20px;
 	}
