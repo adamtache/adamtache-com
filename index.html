@@ -11,129 +11,156 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="js/typed.js"></script>
 	<script src="js/custom.js"></script>
+	<script src="js/turn.js"></script>
 </head>
 
 <body>
 	<div id="background"> </div>
+	
+	<nav id="nav" class="navbar navbar-default navbar-fixed-top">
+		<div class="navbar-header">
+			<a id="logo" href="#index.html"></a>
+		</div>
+		<div class="icons">
+			<a class="hvr-bob" href="http://www.github.com/adamtache"><i id="github" class="fa fa-github-square"></i></a>
+			<a class="hvr-bob" href="mailto:adam.tache@duke.edu"><i id="fort" class="fa fa-envelope"></i></a>
+			<a class="hvr-bob" href="http://www.linkedin.com/adamtache"><i id="linkedin" class="fa fa-linkedin-square"></i></a>
+		</div>
+	</nav>
+
 	<div id="wrapper">
-		<div id="container">
-			<nav id="nav" class="navbar navbar-default navbar-fixed-top">
-				<div class="container-fluid">
-					<div class="navbar-header">
-						<a id="logo" href="#index.html"></a>
-					</div>
-					<div class="icons">
-						<a class="hvr-bob" href="http://www.github.com/adamtache"><i id="github" class="fa fa-github-square"></i></a>
-						<a class="hvr-bob" href="mailto:adam.tache@duke.edu"><i id="fort" class="fa fa-envelope"></i></a>
-						<a class="hvr-bob" href="http://www.linkedin.com/adamtache"><i id="linkedin" class="fa fa-linkedin-square"></i></a>
-					</div>
-				</div>
-			</nav>
+		<div id="title">
+			<h3 id="name"> Adam Taché <br/> Student at Duke University </h3>
+		</div>
+		<div id="side">
+			<div id="picture"></div>
+			<h3>
+				<ul id="navList">
+				</ul>
+			</h3>
+		</div>
+		<div id="content">
+			<div id="HomePage">
+				<p>
+					<h3 id="welcome"></h3><br/><br/>
 
-			<div id="title">
-				<h3 id="name"> Adam Taché <br/> Student at Duke University </h3>
+					I'm 19 years old and a sophomore in the Pratt School of Engineering at <a href="http://www.duke.edu">Duke University</a>. I grew up in South Florida in <a href="http://www.westonfl.org/">Weston</a> where I attended <a href="https://www.youtube.com/watch?v=VHW5NjpIj1c">Cypress Bay High School</a> (hint: Flo Rida). I'm currently studying Computer Science and Electrical & Computer Engineering.
+					<br/><br/>
+
+					<tab></tab>
+					I love traveling the world and thinking about things around me and how they work. Since I was young, I have been fascinated by technology and its dynamic integration into society, eager to understand the innerworkings of hardware and software products  to develop my own.
+					<br/><br/>
+					I'm passionate about learning and guiding others to learn. As a former technology reviewer, I was able to provide tech help to over 20 million  viewers on my YouTube channel (<a href="http://www.youtube.com/user/techtechmantv">TechTechManTV</a>). I'm always interested in learning new things, whether a programming technology, mathematical concept, or worldly idea, and would love to collaborate. I'm also passionate about mental health and am currently a developer for a mental health organization on Duke campus. Shoot me an <a href="mailto:adam.tache@duke.edu">email</a> if you're interested in working together!<br/><br/>
+
+					In my free time, aside from coding, I enjoy <a href="https://www.flickr.com/photos/133344400@N04/albums/72157653059035801">photography</a> and filmmaking, Rubik's Cube Speed Solving, playing with <a href="https://www.facebook.com/kaili.bear">Kaili</a> and Zoe, my Black Russian <strike>Bear</strike> Terrier and Golden Doodle, and engaging in social internet communities such as YouTube, Reddit, <a href="https://www.facebook.com/groups/tymrskeltal/">Post Aesthetics</a>, and <a href="https://www.facebook.com/groups/hackathonhackers/">Hackathon Hackers.</a>
+					<tab></tab>
+				</p>
 			</div>
-			<div id="side">
-				<div id="picture"></div>
-				<h3>
-					<ul id="navList">
-					</ul>
-				</h3>
+			<div id="ExperiencePage">
+				<h3>Experience</h3><br/><br/>
+				<b>Web developer</b> (December 2015 - Present)
+				<br/>
+				I'm currently a web developer for a joint project between Duke Student Government and Duke National Alliance on Mental Health (NAMI) to create an expansive mental health platform for Duke students and simplify mental health. For this project, I'm learning the <a href="http://mean.io/#!/">MEAN stack</a> (MongoDB, Express, Angular.JS, Node.JS) and working with Firebase realtime cloud database and AngularFire.<br/><br/>
+
+				<b>Technology Reviewer</b> (January 2009 - April 2015) <br/>
+				I founded and operated an online YouTube channel (<a href="http://www.youtube.com/techtechmantv">TechTechManTV</a>) dedicated to reviewing consumer technology products. I partnered with tech companies (startup to Fortune 500) to receive free hardware and software products to evaluate, such as mobile applications, accessories, and smartphones and educated viewers on technical tradeoffs between products in hands-on videos. I also provided news coverage of new tech releases, announcements, and rumors and extensively covered iOS jailbreaking through jailbreak tutorials and tweak and theme reviews. I accumulated over <b>30,000 subscribers</b> and <b>20 million unique views</b> by publishing over 433 videos. I also earned over <b>$45,000</b> in advertising revenue through the YouTube Partner Program.<br/><br/>
+
+				<b>Founder of PSVitaVlog</b> (Dec 2011 - January 2013) (<a href="http://www.youtube.com/psvitavlog">Channel</a>)
+				<br/> I founded a network (with three employees) devoted to covering the PS Vita mobile gaming console. We imported Vita units from the early Japanese launch to produce the first English-based technical tutorials and video content online. By publishing 75+ web articles and video tutorials, PS Vita content received over <b>600k unique views</b> and 2,500 subscribers.</br><br/>
+
+				<b>Tech Blogger</b> (2010-2012)<br/>
+				I wrote technology articles for various websites during high school. In 2010, I wrote for the news section of <a href="http://www.tehkseven.net/news">TehkSeven</a>, a once leading Symbian and mobile theming site. In 2011 and 2012, I wrote for <a href="http://www.jailbreaknation.com">JailbreakNation</a>, a large jailbreaking blog. I wrote news articles about iOS jailbreaking tools, themes, tweaks, and applications and created supplementary video content providing visual walkthroughs of article content. One video series was called "<a href="https://www.youtube.com/watch?v=LYC4AMYDIaU">BEST iOS Jailbreak Tweaks.</a>"
 			</div>
-			<div id="content">
-				<div id="HomePage">
-					<p>
-						<h3 id="welcome"></h3><br/><br/>
 
-						I'm currently a sophomore (Class of 2018) studying Computer Science at <a href="http://www.duke.edu">Duke University</a>, but I grew up in South Florida in <a href="http://www.westonfl.org/">Weston</a> where I attended <a href="https://www.youtube.com/watch?v=VHW5NjpIj1c">Cypress Bay High School</a>.<br><br>
+			<div id="EducationPage">
+				<p>
+					Duke University, Pratt School of Engineering. Durham, NC <br/>
+					August 2014 - expected May 2018<br/>
+					B.S. <b>Computer Science</b></br>
+					B.S.E. <b>Electrical & Computer Engineering</b><br/>
+					Minor in <b>Mathematics</b>
+					<br/><br/>
 
-						I have been fascinated by technology since I was young, and when I was 13, I founded an online channel (<a href="http://www.youtube.com/user/techtechmantv">TechTechManTV</a>) dedicated to reviewing consumer tech products. My content has been viewed over 20 million times and subscribed to by over 30,000 users.<br/><br/>
-
-						I'm so glad to finally have a "place on the internet" and will update this site frequently, so check back soon.
-					</p>
-				</div>
-				<div id="AboutPage">
-					<h3>About Me</h3><br/>
-
-					Intuition always told me I would end up studying Computer Science in college, and despite entering Duke as an Economics major, well, here I am. I'm very passionate about software design and applying mathematical and engineering methods to create software that impacts the world.<br/><br/>
-
-					To me, coding is an absolutely beautiful medium full of infinite possibilities; by simply typing words onto a computer screen, I'm able to decompose an intricate problem into smaller parts and fuse them together into a coherent finished product. I'm able to teach a machine to complete a task using mere problem-solving skills, design techniques, and math. What more could I ever ask for?<br/><br/>
-
-					In my free time, aside from coding and learning, I enjoy <a href="https://www.flickr.com/photos/133344400@N04/albums/72157653059035801">photography</a> and filmmaking, Rubik's Cube Speed Solving, playing with <a href="https://www.facebook.com/kaili.bear">Kaili</a> and Zoe, my Black Russian <strike>Bear</strike> Terrier and Golden Doodle, and engaging in social internet communities such as YouTube, Reddit, <a href="https://www.facebook.com/groups/tymrskeltal/">Post Aesthetics</a>, and <a href="https://www.facebook.com/groups/hackathonhackers/">Hackathon Hackers.</a><br/><br/>
-
-					My academic interests include Computer Vision, Artificial Intelligence and Machine Learning, <a href="https://www.youtube.com/watch?v=aThCr0PsyuA">Augmented</a> and Virtual Reality, and Robotics. I'm passionate about mental health and am currently a developer for a mental health platform at Duke. I'm always up for learning new things and working on new projects. Let me know if you want to collaborate!
-				</div>
-
-				<div id="EducationPage">
-					<p>
-						Duke University, Durham, NC <br/>
-						August 2014 - expected May 2018<br/>
-						B.S. <b>Computer Science</b></br></br>
-						<i>Currently exploring degrees </i> in <b>Mathematics</b> and <b>Electrical & Computer Engineering</b> (ECE). I plan to declare a double major in one and minor in one by the end of Spring 2016. I'm primarily interested in applying methods within these two fields to software and am specifically interested in applied math, data modeling, computer vision, and robotics.<br/><br/>
-
-						<b><u>Coursework:</u></b><br/>
-						<div id="cols">
-							<div id="col1">
-								<i>2014-2015:</i><br/>
-								Data Structures & Algorithms<br/>
-								Multivariable Calculus<br/>
-								Writing 101<br/>
-								Intermediate Microeconomics<br/>
-								Digital Photography<br/>
-								Art of the Moving Image<br/>
-								Traditions of Documentary Studies<br/>
-								Introduction to Psychology
-							</div>
-							<div id="col2">
-								<i>2015-2016:</i><br/>
-								Computer Architecture<br/>
-								Combinatorics<br/>
-								Probability<br/>
-								Adaptive Web Development<br/>
-								Software Design/Implementation<br/>
-								Linear Algebra & Diffeq<br/>
-								Comp. Methods in Engineering<br/>
-								Fundamentals of ECE</br>
-							</div>
+					<b><u>Coursework:</u></b><br/>
+					<div id="cols">
+						<div id="col1">
+							<i>Year 1:</i><br/>
+							Data Structures & Algorithms<br/>
+							Multivariable Calculus<br/>
+							Writing 101<br/>
+							Intermediate Microeconomics<br/>
+							Digital Photography<br/>
+							Art of the Moving Image<br/>
+							Traditions of Documentary Studies<br/>
+							Introduction to Psychology
 						</div>
-					</p>
-				</div>
+						<div id="col2">
+							<i>Year 2:</i><br/>
+							Computer Architecture<br/>
+							Combinatorics<br/>
+							Probability<br/>
+							Adaptive Web Development<br/>
+							Software Design/Implementation<br/>
+							Linear Algebra & Diffeq<br/>
+							Comp. Methods in Engineering<br/>
+							Fundamentals of ECE</br>
+						</div>
+					</div>
+					<br/>
+					<b><u>Academic Interests:</u></b><br/>
+					Computer Vision and Image/Video Processing<br/>
+					Artifical Intelligence and Machine Learning<br/>
+					Augmented and Virtual Reality<br/>
+					Robotics<br/>
+					Mathematical Problem Solving<br/>
+					Data Visualization
+				</p>
+			</div>
 
-				<div id="SkillsPage">
-					<b><u>Languages:</b></u><br/>
-					Java<br/>
-					HTML5<br/>
-					CSS3<br/>
-					Javascript<br/>
-					MIPS Assembly<br/><br/>
+			<div id="SkillsPage">
+				<b><u>Languages:</b></u><br/>
+				Java<br/>
+				HTML5<br/>
+				CSS3<br/>
+				Javascript<br/>
+				MIPS Assembly<br/><br/>
 
-					<b><u>Frameworks:</b></u><br/>
-					jQuery<br/>
-					Bootstrap<br/><br/>
+				<b><u>Frameworks:</b></u><br/>
+				jQuery<br/>
+				Bootstrap<br/><br/>
 
-					<b><u>Tools:</b></u><br/>
-					Eclipse<br/>
-					Logisim<br/>
-					Sublime<br/>
-					Adobe Photoshop, Illustrator, Premeire Pro<br/>
-					Final Cut Pro<br/>
-				</div>
+				<b><u>Tools:</b></u><br/>
+				Eclipse<br/>
+				Logisim<br/>
+				Sublime<br/>
+				Adobe Photoshop, Illustrator, Premeire Pro<br/>
+				Final Cut Pro<br/>
+			</div>
 
-				<div id="ProjectsPage">
-					Coming soon. For now you can check out my <a href="http://www.github.com/adamtache">GitHub</a>.
-				</div>
-				<div id="ContactPage">
-					<b>Social Links</b><br/>
-					<i id="twitter" class="fa fa-twitter"></i><a class="hvr-bob" href="http://www.twitter.com/adam_tache"> adam_tache</a><br/>
-					<i id="twitter" class="fa fa-github-alt"></i> <a class="hvr-bob" href="http://www.github.com/adamtache"> adamtache</a><br/>
-					<i id="twitter" class="fa fa-linkedin-square"></i> <a class="hvr-bob" href="http://www.linkedin.com/in/adamtache"> adamtache</a><br/>
-					<i id="instagram" class="fa fa-instagram"></i><a class="hvr-bob" href="http://www.instagram.com/adamtache">&nbsp;adamtache</a><br/>
-					<i id="youtube" class="fa fa-youtube-play"></i><a class="hvr-bob" href="http://www.youtube.com/user/techtechmantv">&nbsp;TechTechManTV</a><br/><br/>
-					<b>Other</b><br/>
-					<i id="envelope" class="fa fa-envelope-o"></i><a class="hvr-bob" href="mailto:adam.tache@duke.edu">&nbsp;adam.tache@duke.edu</a><br/>
-					<i id="phone" class="fa fa-phone"></i> (954) 536-2644</a><br/>
-					<i id="skype" class="fa fa-skype"></i> adam_tache</a><br/>
-				</div>
+			<div id="ProjectsPage">
+				More information on past projects can be found on my <a href="http://www.github.com/adamtache">GitHub</a>.<br/></br/>
+
+				<b>Hear4You</b> (<a href="https://github.com/chc24/Hear4You">Github</a> and <a href="http://www.cs.duke.edu/~djp28">Website</a>)
+				Developed online mental health platform (team of 3) focusing on facilitating healthy conversations about mental health and providing dynamic university resources. As the final project for CS190 Adapative Web Development, I was responsible for designing the front-end and the dynamic resources page and worked with Bootstrap, HTML, CSS, Javascript, jQuery, and Ajax. Currently working as a web developer to expand this project.<br/><br/>
+
+				<b>Conway's Game of Life</b> (<a href="https://github.com/adamtache/conways-game-of-life">Github</a> and <a href="http://adamtache.github.io/conways-game-of-life">Website</a>)
+				I created a client-side simulator of Conway's Game of Life cellular automaton (devised by British mathematician John Conway in 1970) using HTML, CSS, Javascript, and jQuery. I implemented customization options of the initial board dimensions, simulation speed, and the ability for the user to draw individual cells. This is a zero-player game and the automation of cell states is determined after each generation (one step) based on specific rules.<br/><br/>
+
+				<b>Cache Simulator</b> (<a href="https://github.com/adamtache/cachesim">Github</a>) I created a simulator of a single-level, set-associative cache with write-back and write-allocate policy using Java object-oriented design. I minimized cache misses by using the LRU replacement scheme based on temporal locality. This was a project for CS250 Computer Architecture.<br/><br/>
+
+				<b>MIPS Processor</b> I designed with Logisim a fully-functioning 16-bit MIPS-like, word-addressed RISC architecture processor. I implemented a subset of 16 instructions of original MIPS commands, including arithmetic operations, load/store, jumps, and braches as part of CS250 Computer Architecture. An image of my processor can be found <a href="http://i.imgur.com/8jjVw6N.png">here</a>.
+			</div>
+			<div id="ContactPage">
+				<b>Social Links</b><br/>
+				<i id="twitter" class="fa fa-twitter"></i><a class="hvr-bob" href="http://www.twitter.com/adam_tache"> adam_tache</a><br/>
+				<i id="twitter" class="fa fa-github-alt"></i> <a class="hvr-bob" href="http://www.github.com/adamtache"> adamtache</a><br/>
+				<i id="twitter" class="fa fa-linkedin-square"></i> <a class="hvr-bob" href="http://www.linkedin.com/in/adamtache"> adamtache</a><br/>
+				<i id="instagram" class="fa fa-instagram"></i><a class="hvr-bob" href="http://www.instagram.com/adamtache">&nbsp;adamtache</a><br/>
+				<i id="youtube" class="fa fa-youtube-play"></i><a class="hvr-bob" href="http://www.youtube.com/user/techtechmantv">&nbsp;TechTechManTV</a><br/><br/>
+				<b>Other</b><br/>
+				<i id="envelope" class="fa fa-envelope-o"></i><a class="hvr-bob" href="mailto:adam.tache@duke.edu">&nbsp;adam.tache@duke.edu</a><br/>
+				<i id="phone" class="fa fa-phone"></i> (954) 536-2644</a><br/>
+				<i id="skype" class="fa fa-skype"></i> adam_tache</a><br/>
 			</div>
 		</div>
 	</div>
