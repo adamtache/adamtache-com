@@ -25,7 +25,7 @@ $(document).ready(function(){
 		$(ele).delay(del).animate({"left": "0px"}, 500);
 	}
 
-	var pages = ["Home", "Experience", "Education", "Skills", "Projects", "Contact"]; // Navigation pages
+	var pages = ["Home", "Projects", "Experience", "Education", "Skills", "Contact"]; // Navigation pages
 	for(x=0; x<pages.length; x++){
 		$("#"+pages[x]+"Page").css("display", "none").css("margin-bottom", "10px");
 	}
