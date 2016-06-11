@@ -69,7 +69,7 @@ h3, h2, h1{
 #picture{
 	position: relative;
 	height: 200px;
-	background:url("../images/picture_purple.png");
+	background:url("../images/headshot.jpg");
 	background-size: cover;
 	-webkit-box-shadow: 0px 3px 58px 9px rgba(0,0,0,0.9);
 	-moz-box-shadow: 0px 3px 58px 9px rgba(0,0,0,0.9);
