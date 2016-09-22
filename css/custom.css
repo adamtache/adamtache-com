@@ -8,10 +8,11 @@ h3, h2, h1{
 #background{
 	position: absolute;
 	width: 100%;
-	height: 145%;
+	height: 160%;
 	background:url("../images/Durham_Mural.jpg");
-	background-size: 100% 100%;
 	margin-top: -100px;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 #wrapper{
@@ -149,13 +150,14 @@ h3, h2, h1{
 
 li{
 	width: 100%;
-	margin: 0px;
+	margin-top: 0px;
 	border-style: solid;
 	border-color: black;
 	border-top-width: 0px;
 	border-left-width: 0px;
 	border-right-width: 0px;
 	border-bottom-width: 2px;
+	margin-top-width: 2px;
 }
 
 #skillsPage{
@@ -187,18 +189,15 @@ li{
 	float: left;
 }
 
-@media only screen and (min-width: 715px){
+@media only screen and (max-width: 715px){
 	#nav, #content{
 		display: block;
 	}
-}
-
-@media only screen and (max-width: 715px){
 	body{
 		background-color: #acacac;
 	}
 	#background{
-		background-size: cover;
+		background-size: 250% 250%;
 	}
 	#wrapper{
 		width: 100%;
