@@ -25,7 +25,7 @@ $(document).ready(function(){
 		$(ele).delay(del).animate({"left": "0px"}, 500);
 	}
 
-	var pages = ["Home", "Projects", "Experience", "Education", "Skills", "Contact"]; // Navigation pages
+	var pages = ["Home", "Experience", "Education", "Projects", "Contact"]; // Navigation pages
 	for(x=0; x<pages.length; x++){
 		$("#"+pages[x]+"Page").css("display", "none").css("margin-bottom", "10px");
 	}
@@ -57,7 +57,6 @@ $(document).ready(function(){
 		// Adds click to each nav element
 		$("#"+id).click(function(){
 			if(("#"+id)!=active){ // Only adjust content if different page than currently active one clicked
-				console.log(id);
 				$(active).removeClass("hvr-bubble-right");
 				$(active+"Page").css("display","none");
 				active = switchTo("#"+id);
@@ -67,9 +66,9 @@ $(document).ready(function(){
 
 	// Controls typing script from typed.js
 	$("#welcome").typed({
-		strings: ["Hi there, I'm Adam."],
+		strings: ["Hey! I'm Adam."],
 		contentType: "html",
-		startDelay: 2000,
-		typeSpeed: 100
+		startDelay: 1000,
+		typeSpeed: 200
 	});
 });
